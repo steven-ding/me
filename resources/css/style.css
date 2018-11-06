@@ -1,0 +1,199 @@
+/* ------------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------------ */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------ */
+
+.row {
+    /* width: 1280px;*/
+   /* width: 1400px;*/
+    margin: 0 auto;
+}
+
+section{
+    /* padding: 80px 0; */
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ----- HEADINGS ------ */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    text-align: center;   
+    color: #2c3e50;
+    font-size: 180%;
+    word-spacing: 2px;
+}
+
+h2 {
+    font-size: 120%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+h3 {
+    font-size: 110%;
+    color: #0097e6;
+    text-align: center;
+    font-family: 'Tsukushi B Round Gothic','Lato','Arial', sans-serif;
+    margin-bottom: 5px; 
+}
+
+
+h2:after {
+    display:block;
+    content: "";
+    background-color: #FFB927;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 10%;    
+
+}
+
+
+/* ------------------------------------------ */
+/* HEADERS */ 
+/* ------------------------------------------ */
+
+header{
+    /* 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    */
+}
+
+.hero-text-box{
+    /*top: 10%;*/
+    /*position: absolute;
+    width: 1140px;
+    left: 58%;
+    transform: translate(-50%);*/ 
+    margin-top: 60px;
+}
+
+.logo{
+    /*
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 0px;
+    */
+}
+
+.main-nav{
+    font-family: 'Tsukushi B Round Gothic','Lato','Arial', sans-serif;
+    margin-top: 36px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 6px 9;
+    /*color: #e67e22;*/
+    color: #FFB927;
+    font-size: 90%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    text-align: center;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #FBA51B;
+}
+
+/* ----------------------------------------------- */
+/* PROJECTS */
+/* ----------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    /*margin-top: 20px;*/
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.project-scope{
+    color: #7f8c8d;
+    font-size: 85%;
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+
+.project-scope-center{
+    color: #7f8c8d;
+    text-align: center;
+    font-size: 85%;
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #7f8c8d;
+    margin-top: 80px;
+    padding: 30px;
+    font-family: 'Tsukushi B Round Gothic','Lato','Arial', sans-serif;
+    font-size: 80%;
+    color: #fff;
+    text-align: center;
+    word-spacing: 2px;
+}
+
